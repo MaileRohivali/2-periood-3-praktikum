@@ -2,12 +2,20 @@
 <html>
 	<head>
 		<title>Praktikum3</title>
-		<style>
-			/*input{
-				width: 100px;
-				float: right;
-			}*/
-			</style>
+		<style type="text/css">
+			form{
+				width: 300px;
+			}
+			input {margin-left: 10px;
+			width: 200px;
+			height: 35px;
+			float: right;
+			}
+			span{
+				float: left;
+				line-height: 35px;
+			}
+		</style>
 	</head>
 	<body>
 		<form action="form_processing.php" method="post">
